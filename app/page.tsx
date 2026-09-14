@@ -212,7 +212,7 @@ export default function Home() {
                 </div>
 
                 <h2>
-                  Happy Birthday, Salsa! 🎂
+                  Happy Birthday, Kuchupuchu 🎂
                 </h2>
 
                 <div className="card-divider">
