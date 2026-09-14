@@ -88,13 +88,15 @@ export default function Home() {
       {/* BACKGROUND DECORATIONS */}
 
       <div className="background-decor">
-        <span>✦</span>
-        <span>♡</span>
-        <span>✧</span>
-        <span>🌸</span>
-        <span>🎀</span>
-        <span>♡</span>
-        <span>✦</span>
+        {Array.from({ length: 9 }).map((_, index) => (
+          <img
+          key={index}
+          src={flowerImages[index % flowerImages.length]}
+          className={`floating-flower flower-position-${index + 1}`}
+          alt=""
+            />
+        ))}
+        
       </div>
 
       <div className="glow glow-one"></div>
